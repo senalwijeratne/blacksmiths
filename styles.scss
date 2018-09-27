@@ -1,9 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #f4f7f8;
+    background-color: #000000;
     margin: 0px;
-    // overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .testing {
@@ -40,7 +40,7 @@ body {
             font-family: 'Lobster Two', cursive;
             font-size: 24px;
             text-decoration: none;
-            color: black;
+            color: #000000;
         }
     
         a:last-child{
@@ -49,6 +49,25 @@ body {
     }
 }
 
+.hero{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 62.43%, #000000 100%), url(./images/hero-pie.jpg);
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 120vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+    #hero-heading{
+        font-family: Pacifico;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 100px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 60vh;
+    }
+}
 
 
 // *{border: 1px red solid;}

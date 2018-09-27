@@ -12,7 +12,7 @@ body {
   font-family: 'Lobster Two', cursive; }
 
 #nav-bar {
-  position: absolute;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,19 +144,26 @@ body {
     width: 33%; }
     .food-card .section .image {
       width: 85%;
-      height: 55%;
-      -webkit-box-shadow: 0px 4px 50px #000000;
-      box-shadow: 0px 4px 50px #000000;
-      border-radius: 10px; }
+      height: 50vh;
+      -webkit-box-shadow: 0px 4px 50px #000000 !important;
+      box-shadow: 0px 4px 50px #000000 !important;
+      border-radius: 10px;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important; }
+      .food-card .section .image#image-prawns {
+        background: url(./images/prawns.jpg); }
+      .food-card .section .image#image-burger {
+        background: url(./images/hero-burger.jpg); }
+      .food-card .section .image#image-cookies {
+        background: url(./images/cookies.jpg); }
     .food-card .section .title {
       font-family: Pacifico;
       font-style: normal;
       font-weight: normal;
       line-height: normal;
       font-size: 48px;
-      text-align: center;
-      margin-top: auto;
-      margin-bottom: auto; }
+      text-align: center; }
     .food-card .section #section-title-burger {
       -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;

@@ -52,11 +52,11 @@ body {
 
 .hero{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 62.43%, #000000 100%), url(./images/hero-pie.jpg);
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 120vh; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #cccccc;
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     #hero-heading{
         font-family: Pacifico;
@@ -76,6 +76,14 @@ body {
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.25);
+}
+
+.card-heading{
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 48px;
 }
 
 .first-card{
@@ -148,6 +156,65 @@ body {
     }
 }
 
+.reservation-card{
+    .reservation-picker{
+
+        display: flex;
+        border: 2px solid #505050;
+        border-style: solid solid solid solid;
+        border-radius: 10px 10px 10px 10px;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+        .reservation-picker-box{
+            display: flex;
+            align-items: center;
+            width: 25%;
+            height: 100%;
+
+            font-family: Comfortaa;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            font-size: 18px;
+
+            &:not(:last-child){
+                border-right: 2px solid #505050;
+            }
+
+            .icon{
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .fa-chevron-down{
+                margin-left: auto;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+
+            &:last-child{
+                justify-content: center;
+                background-color: #505050;
+                
+                font-family: Lobster Two;
+                font-style: normal;
+                font-weight: normal;
+                line-height: normal;
+                font-size: 26px;
+                color: #FFFFFF;
+
+                cursor: pointer;
+            }
+        }
+    }
+}
 
 
 

@@ -61,15 +61,10 @@ body {
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 62.43%, #000000 100%), url(./images/hero-pie.jpg);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 62.43%, #000000 100%), url(./images/hero-pie.jpg);
   background-color: #cccccc;
-  /* Used if the image is unavailable */
   height: 120vh;
-  /* You must set a specified height */
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
+  background-size: cover; }
   .hero #hero-heading {
     font-family: Pacifico;
     font-style: normal;
@@ -87,6 +82,13 @@ body {
   border-radius: 10px;
   -webkit-box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.25);
   box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.25); }
+
+.card-heading {
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 48px; }
 
 .first-card {
   margin: -50px 100px 0px 100px;
@@ -168,6 +170,60 @@ body {
       -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
       order: -1; }
+
+.reservation-card .reservation-picker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid #505050;
+  border-style: solid solid solid solid;
+  border-radius: 10px 10px 10px 10px;
+  height: 40px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal; }
+  .reservation-card .reservation-picker .reservation-picker-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px; }
+    .reservation-card .reservation-picker .reservation-picker-box:not(:last-child) {
+      border-right: 2px solid #505050; }
+    .reservation-card .reservation-picker .reservation-picker-box .icon {
+      margin-left: 10px;
+      margin-right: 10px; }
+    .reservation-card .reservation-picker .reservation-picker-box .fa-chevron-down {
+      margin-left: auto;
+      margin-right: 10px;
+      cursor: pointer; }
+    .reservation-card .reservation-picker .reservation-picker-box:last-child {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-color: #505050;
+      font-family: Lobster Two;
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+      font-size: 26px;
+      color: #FFFFFF;
+      cursor: pointer; }
 
 #copyright {
   font-family: Comfortaa;

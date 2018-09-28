@@ -216,7 +216,93 @@ body {
     }
 }
 
+.contact-card{
+    display: flex;
+    // align-items: center;
+    padding: 0px 0px 0px 50px;
 
+    .section{
+        width: 33%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            text-align: center;
+            font-size: 22px;
+
+            .social-media-section{
+                p{
+                    margin-bottom: 30px;
+                    margin-top: 0px;
+                }
+                
+                .social-media-icons{
+                    font-size: 32px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            
+            .newsletter-button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                border: 1px solid #505050;
+                box-sizing: border-box;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            .hours-text-section{
+                p{
+                    margin-bottom: 0px;
+                }
+                .bold{
+                    font-weight: bold;
+                }
+            }
+        }
+        
+    }
+
+    .vertical-line{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 1px;
+        background-color: #505050;
+    }
+
+    .contact-map{
+        height: 480px;
+        width: 34%;
+        background: url(./images/g-map-black.jpg);
+        border-radius: 0px 10px 10px 0px;
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .fa-map-marker-alt{
+            color: #FFFFFF;
+            font-size: 26px;
+            text-align: center;
+            text-shadow: 0px 4px 25px #FFFFFF;
+        }
+    }
+}
 
 
 

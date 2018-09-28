@@ -225,6 +225,99 @@ body {
       color: #FFFFFF;
       cursor: pointer; }
 
+.contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 0px 0px 50px; }
+  .contact-card .section {
+    width: 33%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contact-card .section .content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      height: 100%;
+      text-align: center;
+      font-size: 22px; }
+      .contact-card .section .content .social-media-section p {
+        margin-bottom: 30px;
+        margin-top: 0px; }
+      .contact-card .section .content .social-media-section .social-media-icons {
+        font-size: 32px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+      .contact-card .section .content .newsletter-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 40px;
+        border: 1px solid #505050;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 10px;
+        cursor: pointer; }
+      .contact-card .section .content .hours-text-section p {
+        margin-bottom: 0px; }
+      .contact-card .section .content .hours-text-section .bold {
+        font-weight: bold; }
+  .contact-card .vertical-line {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1px;
+    background-color: #505050; }
+  .contact-card .contact-map {
+    height: 480px;
+    width: 34%;
+    background: url(./images/g-map-black.jpg);
+    border-radius: 0px 10px 10px 0px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contact-card .contact-map .fa-map-marker-alt {
+      color: #FFFFFF;
+      font-size: 26px;
+      text-align: center;
+      text-shadow: 0px 4px 25px #FFFFFF; }
+
 #copyright {
   font-family: Comfortaa;
   font-style: normal;

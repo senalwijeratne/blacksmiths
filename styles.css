@@ -258,17 +258,28 @@ body {
       height: 100%;
       text-align: center;
       font-size: 22px; }
-      .contact-card .section .content .social-media-section p {
-        margin-bottom: 30px;
-        margin-top: 0px; }
-      .contact-card .section .content .social-media-section .social-media-icons {
-        font-size: 32px;
+      .contact-card .section .content .social-media-section {
+        height: 35%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between; }
+        .contact-card .section .content .social-media-section .social-media-icons {
+          font-size: 32px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .contact-card .section .content .social-media-section .social-media-icons i {
+            cursor: pointer; }
       .contact-card .section .content .newsletter-button {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -285,9 +296,7 @@ body {
         box-sizing: border-box;
         border-radius: 10px;
         cursor: pointer; }
-      .contact-card .section .content .hours-text-section p {
-        margin-bottom: 0px; }
-      .contact-card .section .content .hours-text-section .bold {
+      .contact-card .section .content .bold {
         font-weight: bold; }
   .contact-card .vertical-line {
     margin-top: 50px;
@@ -311,7 +320,8 @@ body {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    cursor: pointer; }
     .contact-card .contact-map .fa-map-marker-alt {
       color: #FFFFFF;
       font-size: 26px;

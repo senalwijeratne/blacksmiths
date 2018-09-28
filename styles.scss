@@ -239,16 +239,21 @@ body {
             font-size: 22px;
 
             .social-media-section{
-                p{
-                    margin-bottom: 30px;
-                    margin-top: 0px;
-                }
+                height: 35%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 
                 .social-media-icons{
                     font-size: 32px;
                     display: flex;
                     justify-content: space-between;
+
+                    i{
+                        cursor: pointer;                    
+                    }
                 }
+                
             }
             
             .newsletter-button{
@@ -262,13 +267,8 @@ body {
                 cursor: pointer;
             }
 
-            .hours-text-section{
-                p{
-                    margin-bottom: 0px;
-                }
-                .bold{
-                    font-weight: bold;
-                }
+            .bold{
+                font-weight: bold;
             }
         }
         
@@ -294,6 +294,8 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        cursor: pointer;
         
         .fa-map-marker-alt{
             color: #FFFFFF;
@@ -303,14 +305,6 @@ body {
         }
     }
 }
-
-
-
-
-
-
-
-
 
 #copyright{
     font-family: Comfortaa;
